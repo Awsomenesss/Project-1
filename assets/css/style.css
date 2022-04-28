@@ -1,59 +1,102 @@
 @import url('https://fonts.googleapis.com/css2?family=David+Libre&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
-*{
-    margin:0;
-    padding:0;
-    border:none;
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
-body{
-    font-family:David libre,sans-serif ;
-    font-weight:200;
+
+body {
+    font-family: David libre, sans-serif;
+    font-weight: 200;
     color: #3a3a3a;
 }
+
 /* heading and logo following the love ranning project*/
 
-h1,h2{font-family: Oswald,sans-serif;
+h1,
+h2 {
+    font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #252522;
 
 }
-#logo{
+
+#logo {
     float: left;
     font-size: 100;
 }
+
 /*navigation links*/
-#menu{
+#menu {
     font-size: 100%;
     letter-spacing: 3px;
 }
-#menu,#logo{
-    line-height:75px;
+
+#menu,
+#logo {
+    line-height: 75px;
 }
-#menu li{
+
+#menu li {
     float: right;
-    list-style-type:none;
+    list-style-type: none;
     margin-right: 40px;
 }
-#menu a{
+
+#menu a {
     text-decoration: none;
-    color:#3a3a3a;
+    color: #3a3a3a;
 }
-#menu a:hover{
-    
+
+#menu a:hover {
+
     border-bottom: 1px solid #3a3a3a;
 }
-.active{
-    border-bottom:1px solid #3a3a3a; 
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
-#hero-image{
-    
-    
+#cover-text,#cover-text h1{
+    color: antiquewhite;
+}
+
+#hero-image {
     background: url("../images/hero-image\ \(3\).jpg") no-repeat center center;
-    
+
     background-size: cover;
 
     height: 100vh;
-    
-    
+}
+
+#cover-text h1{
+font-size: 250%;
+font-family:Oswald,sans-serif;
+text-transform:uppercase;
+letter-spacing: 3px;
+width: 300px;
+height: 200px;
+ padding-top: 30px;
+ padding-right:150px ;
+ ;
+ bottom: 300px;
+ left: 80px;
+ position: absolute;
+}
+/*style the read more button*/
+#btn{
+    font-size: 50%;
+    display: inline-block;
+    border:none;
+    background-color:none;
+    color:antiquewhite;
+    width: 150px;
+height: 30px;
+text-decoration: none;
+}
+/*button animation*/
+#btn:hover{
+    color:rgb(40, 81, 134);
+    font-size:60%;
 }
