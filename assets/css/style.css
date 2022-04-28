@@ -46,3 +46,14 @@ h1,h2{font-family: Oswald,sans-serif;
 .active{
     border-bottom:1px solid #3a3a3a; 
 }
+#hero-image{
+    
+    
+    background: url("../images/hero-image\ \(3\).jpg") no-repeat center center;
+    
+    background-size: cover;
+
+    height: 100vh;
+    
+    
+}
