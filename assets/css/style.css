@@ -178,7 +178,19 @@ footer h2 {
     position: absolute;
 }
 
-#top-side h1 {
+#top-side h1{
     text-align: center;
 }
-#
+.social-links,h2{
+    text-align: center;
+    padding-top: 200px;
+    }
+    .social-links li,i{
+        display: inline;}
+        .social-links i{
+            font-size: 160%;
+        margin: 1%;
+        padding: 5%;
+        color: #3a3a3a;
+    }
+        
