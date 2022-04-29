@@ -59,7 +59,9 @@ h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-#cover-text,#cover-text h1{
+
+#cover-text,
+#cover-text h1 {
     color: antiquewhite;
 }
 
@@ -70,102 +72,113 @@ h2 {
 
     height: 100vh;
 }
+
 /*cover text*/
-#cover-text h1{
-font-size: 130%;
-font-family:Oswald,sans-serif;
-text-transform:uppercase;
-letter-spacing: 3px;
-width: 300px;
-height: 200px;
- padding-top: 30px;
- padding-right:150px ;
- bottom: 300px;
- left: 80px;
- position: absolute;
+#cover-text h1 {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 300px;
+    height: 200px;
+    padding-top: 30px;
+    padding-right: 150px;
+    bottom: 300px;
+    left: 80px;
+    position: absolute;
 }
+
 /*style the read more button*/
-#btn{
+#btn {
     font-size: 50%;
     display: inline-block;
-    border:none;
-    background-color:none;
-    color:antiquewhite;
+    border: none;
+    background-color: none;
+    color: antiquewhite;
     width: 150px;
-height: 30px;
-text-decoration: none;
+    height: 30px;
+    text-decoration: none;
 }
+
 /*button animation*/
-#btn:hover{
-    color:rgb(40, 81, 134);
-    font-size:60%;
+#btn:hover {
+    color: rgb(40, 81, 134);
+    font-size: 60%;
 }
+
 /*footer*/
-footer{
+footer {
     height: 150%;
 }
-footer h2{
+
+footer h2 {
     text-align: center;
 }
-.external_links a{
-    text-decoration: none;
-    color:#3a3a3a
-}
-.external_links{
-    font-size: 130%;
-font-family:Oswald,sans-serif;
-text-transform:uppercase;
-text-align: center;
-color:#3a3a3a
 
+.external_links a {
+    text-decoration: none;
+    color: #3a3a3a
 }
-.external_links li{
-    
+
+.external_links {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #3a3a3a
+}
+
+.external_links li {
+
     display: inline;
     margin: 6%;
     padding: 2%;
-    
-    
-}
-/* video and pic*/
-#gallary{
-    clear:both;
 
-    
+
+}
+
+/* video and pic*/
+#gallary {
+    clear: both;
+
+
     column-count: 3;
     column-gap: 1%;
-    
-}
-#gallary h2{
-    text-align: center;
-}
-    
-.picture{
-    width:100%;
-    
-    
+
 }
 
-.meditation-video{ 
-    text-transform:uppercase;
+#gallary h2 {
+    text-align: center;
+}
+
+.picture {
+    width: 100%;
+
+
+}
+
+.meditation-video {
+    text-transform: uppercase;
     text-align: center;
     font-size: 25px;
-    color:#3a3a3a;
-    border:none;
-    text-decoration:none
-    
-    }
-    /*About page docaration*/
-    #top-side{ font-size: 130%;
-        font-family:Oswald,sans-serif;
-        letter-spacing: 3px;
-        width: 100%;
-         padding-top: 80px;
-         padding-right:3px ;
-         padding-left:3px ;
-         position: absolute;}
-         #top-side h1{
-            text-align: center; 
-            }
-       
-    
+    color: #3a3a3a;
+    border: none;
+    text-decoration: none
+}
+
+/*About page docaration*/
+#top-side {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 3px;
+    width: 100%;
+    padding-top: 80px;
+    padding-right: 3px;
+    padding-left: 3px;
+    position: absolute;
+}
+
+#top-side h1 {
+    text-align: center;
+}
+#
