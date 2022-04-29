@@ -155,3 +155,17 @@ color:#3a3a3a
     text-decoration:none
     
     }
+    /*About page docaration*/
+    #top-side{ font-size: 130%;
+        font-family:Oswald,sans-serif;
+        letter-spacing: 3px;
+        width: 100%;
+         padding-top: 80px;
+         padding-right:3px ;
+         padding-left:3px ;
+         position: absolute;}
+         #top-side h1{
+            text-align: center; 
+            }
+       
+    
