@@ -99,3 +99,30 @@ text-decoration: none;
     color:rgb(40, 81, 134);
     font-size:60%;
 }
+/*footer*/
+footer{
+    height: 150%;
+}
+footer h2{
+    text-align: center;
+}
+.external_links a{
+    text-decoration: none;
+    color:#3a3a3a
+}
+.external_links{
+    font-size: 130%;
+font-family:Oswald,sans-serif;
+text-transform:uppercase;
+text-align: center;
+color:#3a3a3a
+
+}
+.external_links li{
+    
+    display: inline;
+    margin: 6%;
+    padding: 2%;
+    
+    
+}
