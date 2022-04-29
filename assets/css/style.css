@@ -127,3 +127,31 @@ color:#3a3a3a
     
     
 }
+/* video and pic*/
+#gallary{
+    clear:both;
+
+    
+    column-count: 3;
+    column-gap: 1%;
+    
+}
+#gallary h2{
+    text-align: center;
+}
+    
+.picture{
+    width:100%;
+    
+    
+}
+
+.meditation-video{ 
+    text-transform:uppercase;
+    text-align: center;
+    font-size: 25px;
+    color:#3a3a3a;
+    border:none;
+    text-decoration:none
+    
+    }
