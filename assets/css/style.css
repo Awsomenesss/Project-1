@@ -167,7 +167,7 @@ footer h2 {
 }
 
 /*About page docaration*/
-#top-side {
+.top-side {
     font-size: 130%;
     font-family: Oswald, sans-serif;
     letter-spacing: 3px;
@@ -175,15 +175,15 @@ footer h2 {
     padding-top: 80px;
     padding-right: 3px;
     padding-left: 3px;
-    position: absolute;
+    
 }
 
-#top-side h1{
+.top-side h1{
     text-align: center;
 }
 .social-links,h2{
     text-align: center;
-    padding-top: 200px;
+    padding-top: 80px;
     }
     .social-links li,i{
         display: inline;}
