@@ -85,7 +85,7 @@ h2 {
     padding-right: 150px;
     bottom: 300px;
     left: 80px;
-    position: absolute;
+    position: relative;
 }
 
 /*style the read more button*/
@@ -94,7 +94,7 @@ h2 {
     display: inline-block;
     border: none;
     background-color: none;
-    color: antiquewhite;
+    color: rgb(31, 30, 29);
     width: 150px;
     height: 30px;
     text-decoration: none;
@@ -103,7 +103,7 @@ h2 {
 /*button animation*/
 #btn:hover {
     color: rgb(40, 81, 134);
-    font-size: 60%;
+    font-size: 70%;
 }
 
 /*footer*/
@@ -170,31 +170,37 @@ footer h2 {
 .top-side {
     font-size: 130%;
     font-family: Oswald, sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     width: 100%;
     padding-top: 80px;
     padding-right: 3px;
     padding-left: 3px;
-    
+
 }
 
-.top-side h1{
+.top-side h1 {
     text-align: center;
 }
-.social-links,h2{
+
+.social-links,
+h2 {
     text-align: center;
     padding-top: 80px;
-    }
-    .social-links li,i{
-        display: inline;}
-        .social-links i{
-            font-size: 160%;
-        margin: 1%;
-        padding: 5%;
-        color: #3a3a3a;
-    }
-    /*media queries*/
-    /*media queries*/
+}
+
+.social-links li,
+i {
+    display: inline;
+}
+
+.social-links i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+/*media queries*/
 /*for medium screen size from 800px wide and down*/
 @media screen and (max-width:820px) {
     #gallary {
@@ -202,21 +208,41 @@ footer h2 {
         column-count: 2;
         column-gap: 1%;
     }
-    *{ 
+
+    * {
         padding: 1px;
         margin: 2px;
-    } 
+    }
 
 }
+
 /*for smaller to medium screen size from 600px wide and down*/
 @media screen and (max-width:600px) {
+    * {
+        padding: 1px;
+        margin: 0px;
+    }
+
     #gallary {
         clear: both;
         column-count: 1;
         column-gap: 1%;
     }
-    *{ 
-        padding: 1px;
-        margin: 2px;
-    } 
+
+    #menu {
+        
+        font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    margin-right: 5px;
+       
+    }
+
+    #logo {
+        line-height: 20px;
+    }
 }
