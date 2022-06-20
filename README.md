@@ -7,7 +7,7 @@ The overall aim of this project is to make online the componennt "coagulation" w
 
 A live website can be found [here]
 
-![website preview](assets/preview.PNG)
+![website preview](assets/images/preview.png)
 
 ## Table of Contents 
 
@@ -56,7 +56,7 @@ The main goal of this website is to provide an encoragement to users and provide
 The website is focused to encorage peoplewho are new to meditation.
 * The site structure is designed considering the expectation of users to be simple and easy to use.
 * The user interface is easy to navigate (inlcude main navigation bar, link to website and papers on the benefits of meditation).
-* failed to make site responsive for all screen/device sizes like mobile, tablet and desktop.
+
 # 2. Features
   [Go to the top](#table-of-contents)
  ### All 3 pages:
@@ -68,29 +68,29 @@ The website is focused to encorage peoplewho are new to meditation.
 ### Home page:
 - pictue of meditation person as background picture.
 - The page contain the title of the module "meditation".
-- An external link provided users wth external links.
+- An external link provided users wth external research papers and websits link.
 
 
 The screenshot of home page is below:
 
   Introduction page UI:
-  ![introduction page preview](./assets/preview.PNG)
+  ![home page preview](./assets/images/home.PNG)
 
 ### guided meditation page:
 - This page provides vidios for differnt medtation technique.
 
 The screenshot of theory page is below:
 
- Theory page UI:
-  ![theory page preview](./assets/meditation%20video.PNG)
+ video page UI:
+  ![Video page preview](./assets/images/video.PNG)
 
 
 ### about page:
 - Include motivational paragraph.
 - social linkd for meeting like minded people.
 
-  Feedback page UI:
-  ![about page preview](./assets/about%20page.PNG)
+  About page UI:
+  ![about page preview](./assets/images/about_page.PNG)
 
 
 # 3. Technologies Used
@@ -106,13 +106,29 @@ The screenshot of theory page is below:
 
 # 4. Testing
   [Go to the top](#table-of-contents)
-###  Google Developer Tools
-I make use of google developer tools (Chrome DevTools) as debugging tools. 
+For every element that I added to my HTML, I would add the basic CSS to my stylesheet. I would then use the inspect element to try different styles. Once I've got it to my liking I would copy the CSS from google into my stylesheet. This allows me to keep track of the code I am using.
+
+### Responsive Tools
+
+I used [Am I Responsive](http://ami.responsivedesign.is/) to make sure that all my pages are responsive to all devices.
+
+### W3C Validator Tools
+
+I used [W3C Markup](https://validator.w3.org/#validate_by_input+with_options) to check for any errors within my HTML pages.
+
+I had an error on the index.html page with the iframe attribute of "frameborder". The HTML checker notified me that this attribute is obsolete and to use CSS instead.
+
+I also had an error on the contact_us.html page with a duplicate ID of "form_inline". I rectified this by changing the ID's to a class instead and updated the CSS for this.
+
+I used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to check for any error within my CSS stylesheet.
+<a name="deployment"></a>
 # 6. Deployment
   [Go to the top](#table-of-contents)
 
-The site was deployed to GitHub page.
-- The live link can be found here - (https://awsomenesss.github.io/Project-1/about.html)
+I used GitHub pages to deploy my final project. To do this I had to:
+
+ Create a repository on GitHub.
+
 
   <a name="acknowledgement"></a>
 # 7. Acknowledgement
@@ -122,6 +138,7 @@ The site was deployed to GitHub page.
 * The code for read more button on index.html page came from stackoverflow.
 
 ### Content 
+* The icons in the footer and contact page came from [Font Awesome](https://fontawesome.com/)
  * All the contents for index.html page age came from [goolgle](https://www.google.com)
  * The images from  [Google Images](https://www.google.com/imghp?hl=en)
 
